@@ -1,0 +1,11 @@
+@mixin container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+@mixin buttonHover {
+  opacity: 0.75;
+  transition: 0.3s ease-in;
+}
