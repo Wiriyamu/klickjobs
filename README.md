@@ -1,22 +1,20 @@
-<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="150" src="./src/assets/images/logo.svg" alt="Ignição Digital"></a></p>
-<h1 align="center"> KlickJobs 🧡</h1>
+<p align="center"><a href="https://www.ignicaodigital.com.br/" target="_blank" rel="noopener noreferrer"><img width="150" src="./src/assets/images/logo.svg" alt="Ignição Digital"></a></p>
+<h1 align="center"> KlickJobs </h1>
 
 <!-- Index session-->
 <p align="center">
- <p>Sobre</p> •
- <p>Funcionalidades</p> • 
- <p>Layout</p> • 
- <p>Preview</p> • 
- <p>Executando</p> • 
- <p>Tecnologias</p> • 
- <p>Licença</p>
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-layout">Layout</a> • 
+ <a href="#-funcionalidades">Funcionalidades</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-como-executar-o-projeto">Como executar o projeto</a> • 
 </p>
 
 <!--About session-->
 
 ## 💻 Sobre o projeto
 
-O KlickJobs é novo integrante da família Klick (Members/Pages/Send ) da ignição digital. O KlickJobs foi pensado para um melhor "Match" de possíveis candidatos com time de recrutamento do IGD.
+O KlickJobs é novo integrante da família Klick (Members/Pages/Send ) da Ignição Digital. O KlickJobs foi pensado para um melhor "Match" de possíveis candidatos com o time de recrutamento do IGD.
 
 🚧 Aviso: O KlickJobs é um conceito ainda em desenvolvimento 🚧
 
@@ -65,6 +63,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Database** ([PostgreSQL](https://www.postgresql.org/))
 
+#### **Deploy**
+
+- Frontend: **[Vercel](https://vercel.com/)**
+- Backend: **[Heroku](https://www.heroku.com/home)**
+
 #### **Utilitários**
 
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)**
@@ -78,9 +81,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto consiste em três partes:
 
-1.Frontend
-
-2.Backend
+1. [Frontend](https://github.com/Wiriyamu/klickjobs)
+2. [Backend](https://github.com/Wiriyamu/klick-jobs-backend)
 
 <!--Obs-->
 
@@ -97,12 +99,11 @@ Este projeto consiste em três partes:
 $ git clone
 
 # Acesse a pasta do projeto no prompt de comando
-$ cd NLW-2
 
 # Instale as dependências
 $ yarn
 
-# Execute o script "dev"
+# Execute o script "serve"
 $ yarn serve
 
 # O projeto inciará na porta: 8080 - acesse http://localhost:8080
